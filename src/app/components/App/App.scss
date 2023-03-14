@@ -1,0 +1,24 @@
+.drawer{
+  &-side {
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  }
+  &-content{
+    padding: 1rem;
+  }
+}
+
+
+.title {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.menu-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9999999;
+}
+.drawer-toggle ~ .drawer-content{
+  transition-duration:inherit ;
+}
